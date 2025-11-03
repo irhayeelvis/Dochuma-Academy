@@ -28,3 +28,23 @@ function showSlides() {
 
     setTimeout(showSlides, 3000);
 }
+
+  const faders = document.querySelectorAll('.fade-in');
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // animate once
+      }
+    });
+  }, {
+    threshold: 0.2 // triggers when 20% of the element is visible
+  });
+
+  faders.forEach(fader => {
+    observer.observe(fader);
+  });
+
+  console.log('Heaven knows why you\'re in the console. cos there\'s no errors?');
+  console.log('Website Design and Development by Hashtag VI, follow me on X: https://x.com/@irhayeElvis and github: https://github.com/irhayeelvis');

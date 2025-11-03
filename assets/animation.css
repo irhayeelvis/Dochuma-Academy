@@ -1,0 +1,96 @@
+@keyframes spin {
+    to {
+        background: rotate(360deg);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0%);
+    }
+    
+    10% {
+        transform: translateY(-20%);
+    }
+
+    20% {
+        transform: translateY(10%);
+    }
+
+    40% {
+        transform: translateY(0%)
+    }
+    
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes moveBg {
+    0% {
+        background-position: 0% 0%;
+    }
+    
+    25% {
+        background-position: 100% 50%;
+    }
+
+    50% {
+        background-position: 0% 50%;
+    }
+
+    75% {
+        background-position: 100% 50%;
+    }
+    
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: translateY(80%);
+        opacity: 0%;
+    }
+
+    15% {
+        transform: translateY(0%);
+        opacity: 100%;
+    }
+
+    85% {
+        transform: translate(0%);
+        opacity: 100%;
+    }
+    
+    100% {
+        transform: translateY(-80%);
+        opacity: 0%;
+    }
+}
+
+@keyframes exit {
+    0% {
+        opacity: 100%;
+    }
+
+    90% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

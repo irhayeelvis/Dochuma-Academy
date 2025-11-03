@@ -1,0 +1,169 @@
+@media (min-width: 1024px) {
+    nav {
+        display: none;
+    }
+    
+    .actual-menu {
+        display: flex;
+        position: fixed;
+        background: #47acff36;
+        box-shadow: 0 0 15px #0000002a;
+        backdrop-filter: blur(30px);
+        -webkit-backdrop-filter: blur(30px);
+        width: 100%;
+        float: right;
+        z-index: 1000;
+    }
+
+    .actual-menu img {
+        border-radius: 50%;
+        margin: auto 1rem auto 4rem;
+        height: 30px;
+        width: auto;
+    }
+
+    .actual-menu p {
+        margin: auto 0.2rem;
+        padding: 0;
+        color: #fdfdfd;
+    }
+
+    .actual-menu ul {
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        float: right;
+    }
+
+    .actual-menu ul li {
+        margin: 0 4rem;
+        border-radius: 50%;
+        list-style: none;
+        transition: all 0.3s ease;
+        padding: 5px 15px;
+        color: white; 
+    }
+
+    .actual-menu ul li:hover {
+        border-radius: 25px;
+        background: #00004488;
+    }
+
+    a {
+    color: #fdfdfd;
+    }
+
+    .ham-menu {
+        display: none;
+    }
+
+    .video-container {
+        height: fit-content;
+        height: 800px;
+    }
+
+    .header {
+        padding: 0 10rem;
+        height: fit-content;
+        transform: translate(-50%, -30%)
+    }
+
+    .header p {
+        padding: 2rem 0;
+        width: fit-content;
+        padding: 1rem;
+        margin: 20px auto;
+    }
+
+    .header img {
+        height: 15rem;
+        width: auto;
+    }
+
+    .header h1 {
+        font-size: 7rem;
+    }
+
+    .showcase-after img {
+        margin: 70px 0;
+    }
+
+    .showcase-after h2 {
+        font-size: 2rem;
+    }
+
+    .small-container {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .small-container h1 {
+        font-size: 3rem;
+    }
+
+    .showcase-group-1 {
+        padding: 1px 8px;
+        box-shadow: 0 3px 10px #000000a6;
+        width: 50%;
+        height: auto;
+        margin: 10px auto;
+        border-radius: 20px;
+        background: #00001d;
+    }
+
+    .showcase-group-link {
+        margin: 2rem auto;
+    }
+
+    .showcase-after video {
+        width: 25%;
+        height: auto;
+        box-shadow: 0 0 25px #000000b2;
+    }
+
+    .content {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .content-box {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .showcase-after img {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .grid {
+        display: none;
+    }
+
+    .grid-desktop {
+        display: inline-block;
+        position: relative;
+        width: 90%;
+        margin: 20px auto;
+        height: fit-content;
+    }
+
+    .grid-desktop img {
+        height: 300px;
+        width: auto;
+    }
+
+    .form {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    footer {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 30%;
+    }
+}
