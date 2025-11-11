@@ -160,6 +160,14 @@
         margin: 0 auto;
     }
 
+    .form img {
+        transition: .3s ease;
+    }
+
+    .form img:hover {
+        transform: scale(1.2);
+    }
+
     footer {
         display: flex;
         text-align: center;

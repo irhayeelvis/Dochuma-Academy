@@ -189,9 +189,8 @@ a {
     box-shadow: 0 0 25px #000000c5;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
-    height: 50vh;
+    height: fit-content;
     width: 100%;
-    max-width: 450px;
     position: fixed;
     padding-top: 20%;
     top: -450px;
@@ -249,7 +248,7 @@ a {
 
 .header {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     width: 100%;
     height: auto;
@@ -324,8 +323,8 @@ a {
 }
 
 .showcase-group video {
-    width: fit-content;
-    height: 600px;
+    width: 80%;
+    height: auto;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -400,7 +399,7 @@ a {
 
 .about {
     padding: 20px 10px;
-    text-align: justify;
+    text-align: center;
     background: #bfd3e4;
     margin-bottom: 4rem;
 }
