@@ -108,25 +108,6 @@ fadeUps5.forEach((fadeUp) => {
   observer5.observe(fadeUp);
 });
 
-const fadeUps6 = document.querySelectorAll('.grid-desktop');
-
-const observer6 = new IntersectionObserver((entries) => {
-  entries.forEach((entry, index) => {
-    if (entry.isIntersecting) {
-      const delay = index * 200; //delay value in ms
-      setTimeout(() => {
-        entry.target.classList.add('show');
-      }, delay);
-    }
-  });
-}, {
-  threshold: 0.3, //trigger effect value time
-});
-
-fadeUps6.forEach((fadeUp) => {
-  observer6.observe(fadeUp);
-});
-
 const fadeUps7 = document.querySelectorAll('.head');
 
 const observer7 = new IntersectionObserver((entries) => {

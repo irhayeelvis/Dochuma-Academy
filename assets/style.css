@@ -456,17 +456,6 @@ nav {
     display: none;
 }
 
-.grid-desktop img {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: opacity .5s, transform .5s;
-}
-
-.grid-desktop.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 .slide {
     display: none;
 }
