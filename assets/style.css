@@ -530,7 +530,7 @@ nav {
     transition: opacity .5s, transform .5s;
 }
 
-.content.show {
+.content p.show {
     opacity: 1;
     transform: translateY(0);
 }
