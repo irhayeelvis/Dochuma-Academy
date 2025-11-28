@@ -165,6 +165,25 @@ fadeUps8.forEach((fadeUp) => {
   observer8.observe(fadeUp);
 });
 
+const fadeUps81 = document.querySelectorAll('.content p');
+
+const observer81 = new IntersectionObserver((entries) => {
+  entries.forEach((entry, index) => {
+    if (entry.isIntersecting) {
+      const delay = index * 200; //delay value in ms
+      setTimeout(() => {
+        entry.target.classList.add('show');
+      }, delay);
+    }
+  });
+}, {
+  threshold: 0.3, //trigger effect value time
+});
+
+fadeUps81.forEach((fadeUp) => {
+  observer81.observe(fadeUp);
+});
+
 const fadeUps9 = document.querySelectorAll('.content-box');
 
 const observer9 = new IntersectionObserver((entries) => {
