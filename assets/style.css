@@ -260,6 +260,14 @@ nav {
     padding: 80px 0 0 0;
     border-radius: 20px;
     width: 100%;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.header.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .header p {
@@ -342,6 +350,14 @@ nav {
     margin-top: 40px;
     animation: 3s bounce infinite;
     transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.showcase-group-link.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .showcase-group video {
@@ -350,6 +366,18 @@ nav {
     margin: 0 auto;
     margin-top: 20px;
     box-shadow: 0 3px 15px #000000a6;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.showcase-group video.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.showcase-group video:first-of-type {
+    display: none;
 }
 
 .showcase-group-link:hover {
@@ -366,6 +394,14 @@ nav {
     box-shadow: 13px 13px 26px #b7afda, -13px -13px 26px #e3f2fd;
     text-align: center;
     background: #c3e1fc;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.small-container.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .small-container h1 {
@@ -397,6 +433,14 @@ nav {
     box-shadow: 13px 13px 26px #b7afda, -13px -13px 26px #e3f2fd;
     padding: 50px 5px;
     text-align: center;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.container.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .grid {
@@ -410,6 +454,17 @@ nav {
 
 .grid-desktop {
     display: none;
+}
+
+.grid-desktop img {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.grid-desktop.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .slide {
@@ -440,6 +495,14 @@ nav {
     box-shadow: 13px 13px 26px #746d94, -13px -13px 26px #e3f2fd;
     padding: 5px;
     text-align: center;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.head.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .head h1 {
@@ -462,6 +525,14 @@ nav {
     border-radius: 20px;
     box-shadow: 13px 13px 26px #746d94, -13px -13px 26px #e3f2fd;
     padding: 20px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.content.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .content img {
@@ -515,6 +586,14 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.content-box.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .main {
@@ -525,6 +604,14 @@ nav {
     padding: 10px;
     width: 90%;
     border-radius: 10px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.main.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .main h2 {
@@ -542,6 +629,14 @@ nav {
     text-align: center;
     padding: 0 20px;
     border-radius: 30px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.end.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .end h1 {
@@ -558,6 +653,14 @@ nav {
     background: #c3e1fc;
     padding: 20px;
     justify-content: space-evenly;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.form.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .form img {
@@ -569,6 +672,14 @@ nav {
     box-shadow: 13px 13px 26px #b7afda, -13px -13px 26px #e3f2fd;
     text-align: center;
     background: #c3e1fc;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity .5s, transform .5s;
+}
+
+.form img.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 footer {
@@ -589,5 +700,5 @@ footer p {
 }
 
 footer a {
-    color: #ff0000;
+    color: #ff8800;
 }
